@@ -5,7 +5,7 @@ import { auth, signIn } from '@/auth';
 import { signOut } from '@/auth';
 import { BadgePlus, LogOut } from 'lucide-react';
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
-import { ConfettiButton } from './ui/confetti';
+import { Button } from './ui/button';
     
 
 const Navbar = async() => {
@@ -43,7 +43,7 @@ const Navbar = async() => {
                 </Link>
                 </>
             ): (
-              <ConfettiButton
+              <Button
               onClick={async () => {
                 "use server";
                 await signIn("github", { redirectTo: "/" });
@@ -51,7 +51,7 @@ const Navbar = async() => {
               className="bg-black-200 text-white hover:bg-red-300 hover:text-black transition-all"
             >
               Login
-            </ConfettiButton>
+            </Button>
             )}
         </div>
       </nav>
