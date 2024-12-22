@@ -27,9 +27,12 @@
     "@sentry/nextjs": "^8.34.0",
     "@tailwindcss/typography": "^0.5.15",
     "@uiw/react-md-editor": "^4.0.4",
+<<<<<<< HEAD
     "@vercel/analytics": "^1.4.1",
     "@vercel/speed-insights": "^1.1.0",
     "autoprefixer": "^10.4.20",
+=======
+>>>>>>> 3a0924e37ee73c045d2c0ae453ad1a63ed1d8134
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
     "lucide-react": "^0.452.0",

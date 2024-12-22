@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // import Link from 'next/link'
 // import React from 'react'
 // import Image from 'next/image'
@@ -68,6 +69,17 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 const Navbar = async () => {
   const session = await auth();
 
+=======
+import Link from "next/link";
+import Image from "next/image";
+import { auth, signOut, signIn } from "@/auth";
+import { BadgePlus, LogOut } from "lucide-react";
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+
+const Navbar = async () => {
+  const session = await auth();
+
+>>>>>>> 3a0924e37ee73c045d2c0ae453ad1a63ed1d8134
   return (
     <header className="px-5 py-3 bg-white shadow-sm font-work-sans">
       <nav className="flex justify-between items-center">
@@ -123,4 +135,8 @@ const Navbar = async () => {
   );
 };
 
+<<<<<<< HEAD
 export default Navbar;
+=======
+export default Navbar;
+>>>>>>> 3a0924e37ee73c045d2c0ae453ad1a63ed1d8134
