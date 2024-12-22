@@ -46,7 +46,7 @@ const config: Config = {
     			sm: 'calc(var(--radius) - 4px)'
     		},
     		boxShadow: {
-				'100': '2px 2px 0px 0px rgb(0, 0, 0)',  // Light blue shadow
+				'100': '2px 2px 0px 0px rgb(0, 0, 1)',  // Light blue shadow
 				'200': '2px 2px 0px 2px rgb(0, 0, 0)',  // Medium blue shadow
 				'300': '2px 2px 0px 2px rgb(3, 63, 134)'    // Dark blue shadow
 			  },
