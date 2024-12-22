@@ -3,7 +3,7 @@ import StartupCard, { StartupTypeCard } from "@/components/StartupCard";
 import { STARTUP_QUERY } from "@/sanity/lib/query";
 import { sanityFetch, SanityLive } from "@/sanity/lib/live";
 import { auth } from "@/auth";
-import Meteors from "@/components/ui/meteors";
+
 
 export default async function Home({
   searchParams,
