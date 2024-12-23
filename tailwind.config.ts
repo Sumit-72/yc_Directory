@@ -14,10 +14,15 @@ const config: Config = {
     			xs: '475px'
     		},
     		colors: {
-    			primary: {
-    				'100': '#FFE8F0',
-    				DEFAULT: '#EE2B69'
-    			},
+    			// primary: {
+    			// 	'100': '#FFE8F0',
+    			// 	DEFAULT: '#EE2B69'
+    			// },
+				primary: {
+					'100': '#E0F2FE',  // Light blue shade
+					DEFAULT: '#1D4ED8', // Main blue color (similar to bg-blue-600)
+					'700': '#1E40AF'    // Darker blue shade, similar to bg-blue-700
+				  },
     			secondary: '#FBE843',
     			black: {
     				'100': '#333333',
@@ -43,7 +48,8 @@ const config: Config = {
     		boxShadow: {
     			'100': '2px 2px 0px 0px rgb(0, 0, 0)',
     			'200': '2px 2px 0px 2px rgb(0, 0, 0)',
-    			'300': '2px 2px 0px 2px rgb(238, 43, 105)'
+    			// '300': '2px 2px 0px 2px rgb(238, 43, 105)'
+				'300': '2px 2px 0px 2px rgb(3, 63, 134)'
     		},
     		animation: {
     			pulse: 'pulse var(--duration) ease-out infinite',
