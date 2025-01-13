@@ -14,12 +14,25 @@ const config: Config = {
     			xs: '475px'
     		},
     		colors: {
+<<<<<<< HEAD
 				primary: {
 					'100': '#E0F3FF', /* Light shade of blue */
 					DEFAULT: '#007BFF' /* Main blue color */
 				},
 				secondary: '#FBE843', /* Keeping the secondary color as is */
 				
+=======
+    			// primary: {
+    			// 	'100': '#FFE8F0',
+    			// 	DEFAULT: '#EE2B69'
+    			// },
+				primary: {
+					'100': '#E0F2FE',  // Light blue shade
+					DEFAULT: '#1D4ED8', // Main blue color (similar to bg-blue-600)
+					'700': '#1E40AF'    // Darker blue shade, similar to bg-blue-700
+				  },
+    			secondary: '#FBE843',
+>>>>>>> 14a6c32d321e83c6602541d7b50ddcca88a3714c
     			black: {
     				'100': '#333333',
     				'200': '#141413',
@@ -42,10 +55,18 @@ const config: Config = {
     			sm: 'calc(var(--radius) - 4px)'
     		},
     		boxShadow: {
+<<<<<<< HEAD
 				'100': '2px 2px 0px 0px rgb(0, 0, 0)', /* Solid blue shadow */
 				'200': '2px 2px 0px 2px rgb(0, 0, 0)', /* Blue shadow with an outer spread */
 				'300': '2px 2px 0px 2px rgb(0, 123, 255)' /* Lighter blue for a vibrant look */
 			},			
+=======
+				'100': '2px 2px 0px 0px rgb(0, 0, 1)',  // Light blue shadow
+				'200': '2px 2px 0px 2px rgb(0, 0, 0)',  // Medium blue shadow
+				'300': '2px 2px 0px 2px rgb(3, 63, 134)'    // Dark blue shadow
+			  },
+			  
+>>>>>>> 14a6c32d321e83c6602541d7b50ddcca88a3714c
     		animation: {
     			pulse: 'pulse var(--duration) ease-out infinite',
     			meteor: 'meteor 5s linear infinite'

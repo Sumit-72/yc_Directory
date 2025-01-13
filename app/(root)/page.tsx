@@ -3,6 +3,10 @@ import StartupCard, { StartupTypeCard } from "@/components/StartupCard";
 import { STARTUP_QUERY } from "@/sanity/lib/query";
 import { sanityFetch, SanityLive } from "@/sanity/lib/live";
 import { auth } from "@/auth";
+<<<<<<< HEAD
+=======
+
+>>>>>>> 14a6c32d321e83c6602541d7b50ddcca88a3714c
 
 export default async function Home({
   searchParams,
