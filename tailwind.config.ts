@@ -14,11 +14,12 @@ const config: Config = {
     			xs: '475px'
     		},
     		colors: {
-    			primary: {
-    				'100': '#FFE8F0',
-    				DEFAULT: '#EE2B69'
-    			},
-    			secondary: '#FBE843',
+				primary: {
+					'100': '#E0F3FF', /* Light shade of blue */
+					DEFAULT: '#007BFF' /* Main blue color */
+				},
+				secondary: '#FBE843', /* Keeping the secondary color as is */
+				
     			black: {
     				'100': '#333333',
     				'200': '#141413',
@@ -41,10 +42,10 @@ const config: Config = {
     			sm: 'calc(var(--radius) - 4px)'
     		},
     		boxShadow: {
-    			'100': '2px 2px 0px 0px rgb(0, 0, 0)',
-    			'200': '2px 2px 0px 2px rgb(0, 0, 0)',
-    			'300': '2px 2px 0px 2px rgb(238, 43, 105)'
-    		},
+				'100': '2px 2px 0px 0px rgb(0, 0, 0)', /* Solid blue shadow */
+				'200': '2px 2px 0px 2px rgb(0, 0, 0)', /* Blue shadow with an outer spread */
+				'300': '2px 2px 0px 2px rgb(0, 123, 255)' /* Lighter blue for a vibrant look */
+			},			
     		animation: {
     			pulse: 'pulse var(--duration) ease-out infinite',
     			meteor: 'meteor 5s linear infinite'
