@@ -14,25 +14,12 @@ const config: Config = {
     			xs: '475px'
     		},
     		colors: {
-<<<<<<< HEAD
 				primary: {
 					'100': '#E0F3FF', /* Light shade of blue */
 					DEFAULT: '#007BFF' /* Main blue color */
 				},
 				secondary: '#FBE843', /* Keeping the secondary color as is */
 				
-=======
-    			// primary: {
-    			// 	'100': '#FFE8F0',
-    			// 	DEFAULT: '#EE2B69'
-    			// },
-				primary: {
-					'100': '#E0F2FE',  // Light blue shade
-					DEFAULT: '#1D4ED8', // Main blue color (similar to bg-blue-600)
-					'700': '#1E40AF'    // Darker blue shade, similar to bg-blue-700
-				  },
-    			secondary: '#FBE843',
->>>>>>> 14a6c32d321e83c6602541d7b50ddcca88a3714c
     			black: {
     				'100': '#333333',
     				'200': '#141413',
