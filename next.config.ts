@@ -2,13 +2,6 @@ import {withSentryConfig} from '@sentry/nextjs';
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  typescript:{
-    ignoreBuildErrors: true,
-
-  },
-  eslint:{
-    ignoreDuringBuilds: true,
-  },
   /* config options here */
   images: {
     dangerouslyAllowSVG: true,
@@ -35,7 +28,7 @@ export default withSentryConfig(nextConfig, {
 // https://github.com/getsentry/sentry-webpack-plugin#options
 
 org: "sumit-73",
-project: "javascript-nextjs",
+project: "yc_directory",
 
 // Only print logs for uploading source maps in CI
 silent: !process.env.CI,

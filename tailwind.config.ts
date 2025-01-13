@@ -42,18 +42,10 @@ const config: Config = {
     			sm: 'calc(var(--radius) - 4px)'
     		},
     		boxShadow: {
-<<<<<<< HEAD
 				'100': '2px 2px 0px 0px rgb(0, 0, 0)', /* Solid blue shadow */
 				'200': '2px 2px 0px 2px rgb(0, 0, 0)', /* Blue shadow with an outer spread */
 				'300': '2px 2px 0px 2px rgb(0, 123, 255)' /* Lighter blue for a vibrant look */
 			},			
-=======
-				'100': '2px 2px 0px 0px rgb(0, 0, 1)',  // Light blue shadow
-				'200': '2px 2px 0px 2px rgb(0, 0, 0)',  // Medium blue shadow
-				'300': '2px 2px 0px 2px rgb(3, 63, 134)'    // Dark blue shadow
-			  },
-			  
->>>>>>> 14a6c32d321e83c6602541d7b50ddcca88a3714c
     		animation: {
     			pulse: 'pulse var(--duration) ease-out infinite',
     			meteor: 'meteor 5s linear infinite'
