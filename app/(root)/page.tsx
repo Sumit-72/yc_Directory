@@ -16,16 +16,6 @@ export default async function Home({
 
   const { data: posts } = await sanityFetch({ query: STARTUP_QUERY, params });
 
-  // const posts = [{
-  //   _createAt: new Date(),
-  //   views:55,
-  //   author:{ _id:1, name: 'Sumit'},
-  //   description: "THis is a descrition",
-  //   image: "https://th.bing.com/th/id/OIP.p16j-ri22-iNPdQDEt6yqQHaDL?w=287&h=149&c=7&r=0&o=5&pid=1.7",
-  //   category: "Robots",
-  //   title: "We Robots",
-  // }]
-
   return (
     <>
       <div className="bg-[url('https://www.transparenttextures.com/patterns/always-grey.png')]">
