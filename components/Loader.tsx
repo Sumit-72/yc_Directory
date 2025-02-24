@@ -1,11 +1,11 @@
 import React, { useRef, useEffect } from "react";
 
 const Loader = () => {
-  const videoRef = useRef<HTMLVideoElement | null>(null); // ✅ Define the type
+  const videoRef = useRef<HTMLVideoElement | null>(null); 
 
   useEffect(() => {
     if (videoRef.current) {
-      videoRef.current.playbackRate = 2.0; // ✅ Increase speed
+      videoRef.current.playbackRate = 2.0; 
     }
   }, []);
 

@@ -4,6 +4,7 @@ import "./globals.css";
 import 'easymde/dist/easymde.min.css';
 import { Toaster } from "@/components/ui/toaster";
 import PageLoader from "@/components/PageLoader"
+import { Suspense } from "react";
 const workSans = localFont({
   src: [
     { path: './fonts/WorkSans-Black.ttf', weight: '900' },
@@ -28,7 +29,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en">
       <body className={workSans.variable}>
-        <PageLoader />
+      <Suspense fallback={<div>Loading...</div>}>
+          <PageLoader />
+        </Suspense>
         <Toaster />
         {children}
       </body>
