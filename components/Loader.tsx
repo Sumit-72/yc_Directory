@@ -5,7 +5,7 @@ const Loader = () => {
 
   useEffect(() => {
     if (videoRef.current) {
-      videoRef.current.playbackRate = 2.0; 
+      videoRef.current.playbackRate = 3.0; 
     }
   }, []);
 

@@ -11,7 +11,7 @@ export default function PageLoader() {
 
   useEffect(() => {
     setLoading(true); // Show loader on route change
-    const timeout = setTimeout(() => setLoading(false), 1000); // Simulate loading delay
+    const timeout = setTimeout(() => setLoading(false), 1500); // Simulate loading delay
 
     return () => clearTimeout(timeout);
   }, [pathname, searchParams]); // Runs when pathname or search params change
